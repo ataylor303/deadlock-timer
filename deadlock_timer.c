@@ -1,6 +1,6 @@
 /*
 Name: Asiah T and Ben P
-Course: <Course Name>
+Course: CST-315
 Assignment: Deadlock Timer Simulation
 Date: March 1, 2026
 

@@ -1,0 +1,27 @@
+Deadlock Simulation Log
+
+Process 1 trying B then A
+Process 1 acquired first resource
+Process 0 trying A then B
+Process 0 acquired first resource
+Process 1 attempting second resource...
+Process 0 attempting second resource...
+Process 1 timed out waiting -> releasing first resource
+Process 0 timed out waiting -> releasing first resource
+Restarting Process 1
+Restarting Process 0
+Process 1 trying B then A
+Process 1 acquired first resource
+Process 0 trying A then B
+Process 0 acquired first resource
+Process 1 attempting second resource...
+Process 0 attempting second resource...
+Process 1 timed out waiting -> releasing first resource
+Process 0 entered critical section
+Restarting Process 1
+Process 1 trying B then A
+Process 0 finished successfully
+Process 1 acquired first resource
+Process 1 attempting second resource...
+Process 1 entered critical section
+Process 1 finished successfully
